@@ -1,0 +1,15 @@
+Project Name: My First Firefox Web Browser Extension
+
+Goals: complete the MDN extension walkthrough to understand the fundamentals of firefox extension development.
+
+Resources:
+
+1 Guide - https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
+2 Reference - https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions#reference
+3 Solution Source Code - https://github.com/mdn/webextensions-examples/tree/main/borderify.
+
+
+Following the guide, we'll learn how to make web extensions for firefox from start to finish.
+This particular tutorial extension adds a red border to "mozilla.org" pages or any of its subdomains.
+
+Writing the extension:
