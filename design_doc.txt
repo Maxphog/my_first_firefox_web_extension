@@ -14,4 +14,34 @@ This particular tutorial extension adds a red border to "mozilla.org" pages or a
 
 Writing the extension:
 
-hiiiii
+make a folder named borderify
+create a file name manifest.json
+instert this boilerplate into the manifest file:
+    {
+    "manifest_version": 2,
+    "name": "Borderify",
+    "version": "1.0",
+
+    "description": "Adds a red border to all webpages matching mozilla.org.",
+
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+
+    "content_scripts": [
+        {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["borderify.js"]
+        }
+    ]
+    }
+
+Create the "icons" folder directly under the "borderify" folder.
+Save an icon there named "border-48.png". 
+    If you choose to supply your own icon, It should be 48x48 pixels. 
+    You could also supply a 96x96 pixel icon, for high-resolution displays, and if you do this it will be specified as the 96 property of the icons object in manifest.json:
+        "icons": {
+            "48": "icons/border-48.png",
+            "96": "icons/border-96.png"
+            }
+
