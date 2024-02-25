@@ -15,7 +15,7 @@ This particular tutorial extension adds a red border to "mozilla.org" pages or a
 Writing the extension:
 
 make a folder named borderify
-create a file name manifest.json
+create a file name manifest.json inside this folder
 instert this boilerplate into the manifest file:
     {
     "manifest_version": 2,
