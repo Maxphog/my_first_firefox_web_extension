@@ -14,5 +14,11 @@
         "matches": ["*://*.mozilla.org/*"],
         "js": ["borderify.js"]
       }
-    ]
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "borderify@example.com"
+        }
+      }
 }
